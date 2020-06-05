@@ -9,7 +9,7 @@ namespace login_tasks {
 
             try {
                 Console.Write("Pwd: ");
-                var value = Console.ReadLine();
+                var value = ReadLine.ReadPassword("Pwd:");
 
                 var commands = new List<string>() {
                     $@"""C:\Program Files\VeraCrypt\VeraCrypt.exe"" /q /v \Device\Harddisk0\Partition2 /l V /password {value}",

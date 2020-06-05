@@ -6,4 +6,8 @@
     <RootNamespace>login_tasks</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ReadLine" Version="2.0.1" />
+  </ItemGroup>
+
 </Project>
