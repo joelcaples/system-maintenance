@@ -1,9 +1,10 @@
-﻿using login_tasks.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace login_tasks {
+using SysMaint.Run.Models;
+
+namespace SysMaint.Run {
 
     class Program {
 

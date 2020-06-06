@@ -1,9 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>login_tasks</RootNamespace>
+    <RootNamespace>SysMaint.Run</RootNamespace>
+    <AssemblyName>sysmaint-run</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
